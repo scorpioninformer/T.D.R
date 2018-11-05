@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title>scorpion informer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="jquery.lineProgressbar.js"></script>
+	<script src="wow.min.js"></script>
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="jquery.lineProgressbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" hrref="style.css">
+	<link rel="stylesheet" hrref="style3.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <meta name="theme-color" content="black">
+    <meta name="msapplication-navbutton-color" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="icon" href="1.jpg" type="" />
+</head>
+<style>
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+.navbar-custom{
+background-color: #151717;
+	color: #FFF;
+	border-radius: 0px;
+	padding: 10px;
+}
+.navbar-custom .navbar-nav>li>a{
+	color: #FFF;font-family: Times new roman;
+	font-size: 21px;margin-left: 13px;
+}
+.navbar-custom .navbar-nav>.active>a{
+	color: #fff;background-color: #df6c43;
+}
+.navbar-custom .navbar-nav>li>a:hover{
+	background-color: #df6c43;
+}
+.navbar-custom .navbar-brand{
+color: #fff;font-size: 27px;margin-left: 15px;
+}
+.navbar-custom .navbar-brand:hover{
+color: #fff;font-size: 27px;
+    }
+.navbar-custom{
+background-color: #151717;
+	color: #FFF;
+	border-radius: 0px;
+	padding: 10px;
+}
+.navbar-custom .navbar-nav>li>a{
+	color: #FFF;
+	font-size: 19px;margin-left: 13px;
+}
+.navbar-custom .navbar-nav>.active>a{
+	color: #fff;background-color: #df6c43;
+}
+.navbar-custom .navbar-nav>li>a:hover{
+	background-color: #df6c43;
+}
+.navbar-custom .navbar-brand{
+color: #fff;font-size: 27px;margin-left: 15px;
+}
+.navbar-custom .navbar-brand:hover{
+color: #fff;font-size: 27px;
+    }
+     
+#container ul1{
+list-style:none;
+}
+#container ul1 li1{
+background-color:cadetblue;
+width:150px;
+text-decoration: none;
+height:50px;
+line-height:50px;
+text-align:center;
+float:left;
+color:white;
+font-size:20px;font-family: Times new roman;
+position:relative;
+}
+#container ul1 li1:hover{
+background-color:#df6c43;
+}
+#container ul1 ul1{
+display:none;
+}
+#container ul1 li1:hover > ul1{
+display:block;
+}
+#container ul1 ul1 ul1{
+margin-left:150px;
+top:0px;
+posiyion:absolute;
+}
+    #container ui1 a {
+        text-decoration: none;
+    }   
+   
+
+
+.slider{
+	width: 100%;
+	padding: 0px;margin: 0px;
+}
+.carousel-caption{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left:-20px;
+}
+b{
+	font-size: 40px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #df6c43;
+}
+#Services{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color:#df6c43;
+}
+.col1{
+	border-style: solid;border-color: #999999;
+	border-width: 1px;min-height: 350px;
+}
+.icons{
+	width: 130px;font-size: 60px;background-color: #d9d9d9;
+	padding: 5px 10px;height: 110px;
+	margin-top: -50px;
+	color: #df6c43;
+}
+.btn-primary{
+	background-color: #df6c43;border-radius: 0px;border-color: #df6c43;
+}
+.btn-primary1{
+	color: black;background-color: white;border-radius: 0px;border-color: black;border-radius: 25px;
+}
+.btn-primary2{
+	color: #fff; background-color:#e8491d;border-radius: 0px;border-color: #e8491d;border-radius: 25px;
+}
+#about{
+	width: 100%;
+	min-height: 600px;
+	background-color: #151717;
+	margin-top: 50px;
+}
+#aboutcompany{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	border-bottom-color: #df6c43;
+	position: relative;
+	top:35px;
+	color: #fff;
+}
+#team{
+	position: relative;
+top:40px;
+}
+#ourteam{
+	font-size: 45px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #df6c43;
+}
+.team-member{
+	text-align: center;
+	margin-top: 5px;
+}
+.icon i{
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	background-color: #98e698;
+	padding: 18px;
+	border-radius: 50%;
+}
+.icon i{
+	background-color: #46d248;
+}
+
+ #Service1{
+	font-size: 30px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #df6c43;
+    color: #fff;
+}   
+  #Service2{
+	font-size: 30px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color: #df6c43;
+    color:#282e3e ;
+}      
+   #Service3{
+	font-size: 24px;
+	border-bottom-style: ridge;
+	font-weight: bold;
+	border-bottom-color:#df6c43;
+    color:#282e3e ;
+}    
+       
+#container ul1{
+list-style:none;
+}
+#container ul1 li1{
+background-color:cadetblue;
+width:150px;
+text-decoration: none;
+height:50px;
+line-height:50px;
+text-align:center;
+float:left;
+color:white;
+font-size:18px;
+position:relative;
+}
+#container ul1 li1:hover{
+background-color:#df6c43;
+}
+#container ul1 ul1{
+display:none;
+}
+#container ul1 li1:hover > ul1{
+display:block;
+}
+#container ul1 ul1 ul1{
+margin-left:150px;
+top:0px;
+posiyion:absolute;
+}
+    #container ui1 a {
+        text-decoration: none;
+    }   
+     
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+        
+    
+  
+}
+
+.social {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dashed #000000;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 50px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: red;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: darkslateblue;
+  color: white;
+}
+.social .link.linkedin {
+  background-color: #007bb5;
+  color: white;
+}
+ .social .link.envelope-open {
+  background-color: #000000;
+  color: white;
+}
+ .social .link.whatsapp {
+  background-color: green;
+  color: white;
+} 
+.social .link.copy {
+  background-color:  chocolate;
+  color: white;
+} 
+ 
+</style>
+<body>
+
+	<nav class="navbar navbar-custom navbar-nav navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-md-4">
+			<div class="navbar-header">
+			
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+</button>
+				<a href="#" class="navbar-brand">ಟಿ.ಡಿ ರಾಜೇಗೌಡ</a>
+			</div>
+			
+			</div>
+			<div class="col-md-8">
+			<div class="collapse navbar-collapse" id="robust">
+				<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+				<li class="active"><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                                   
+<li><div id="container"><ul1><li1> &nbsp;Language<ul1><br>
+    <a href="https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/"><li1>Kannada</li1></a><br><br>
+    <a href="english/index.html"><li1>English</li1></a><br><br>
+    <a href="hindi/index.html"><li1>Hindi</li1></a>
+    </ul1></li1></ul1></div></li> 
+			</ul>
+			</div>
+			</div>
+		</div>
+		</div>
+	</nav>
+	<br><br>
+		<div id="about">
+		<div class="container">
+
+	<center><strong id="aboutcompany">About Us</strong></center><br><br><br><br>
+ 
+		
+		<p style="color:#fff;text-align: center;font-size: 25px;">*ಟಿ.ಡಿ ರಾಜೇಗೌಡ -TDR*
+ರಾಜಕಾರಣದಲ್ಲಿ ತನ್ನದೇ ಆದ ಛಾಪು ಮೂಡಿಸಿರುವ ಅನುಭವಿ ರಾಜಕಾರಣಿ. 
+ಶೃಂಗೇರಿ ಕ್ಷೇತ್ರದಿಂದ ಪ್ರಥಮ ಬಾರಿಗೆ ಜನಾಶೀರ್ವಾದಿಂದ ಶಾಸಕರಾಗಿ ಆಯ್ಕೆಯಾಗಿರುವ ಜನನಾಯಕ. 
+ಚಿಕ್ಕಮಗಳೂರಿನ ತಳ್ಳಿಹಳ್ಳದಲ್ಲಿ ಜನಿಸಿದ‌ ರಾಜೇಗೌಡರು ರಾಜಕೀಯದಲ್ಲಿ ಸ್ಥಾನ ಬಯಸಿ ಹೋದವರಲ್ಲ.‌ ಹರಸಿ ಬಂದ ಸ್ಥಾನಕ್ಕೆ ನ್ಯಾಯ ಒದಗಿಸುವ ಜನಪರ ಕಾಳಜಿಯುಳ್ಳ ನೇತಾರರು. 1 ಬಾರಿ ಖಾಂಡ್ಯ ಜಿಲ್ಲಾ ಪಂಚಾಯಿತಿ ಕ್ಷೇತ್ರದಿಂದ ಮತ್ತು 1 ಬಾರಿ ವಸ್ತಾರೆ ಕ್ಷೇತ್ರದಿಂದ ಚುನಾಯಿತರಾಗಿ‌ ಅತಿಹೆಚ್ಚು ‌ಅಭಿವೃದ್ಧಿ ಕೆಲಸಗಳನ್ನು ಮಾಡಿ ಜನ ಮೆಚ್ಚುಗೆಗೆ ಪಾತ್ರರಾಗಿದ್ದಾರೆ.
+</p>
+		   
+     
+           
+		</div>
+            </div>
+	
+	<div id="team">
+	<div class="container">
+
+	<div class="row">
+		<center><strong id="ourteam"></strong></center><br><br>
+        <p style="color:#000000;text-align: center;font-size: 20px;"> ಒಂದು ಅವಧಿಗೆ ಚಿಕ್ಕಮಗಳೂರು ಜಿಲ್ಲಾ ಪಂಚಾಯಿತಿ ಅಧ್ಯಕ್ಷರಾಗಿ ಜಿಲ್ಲೆಯ ಅಭಿವೃದ್ಧಿಯ ಹೊಣೆಗಾರಿಕೆಯನ್ನು ಅತ್ಯಂತ ಉತ್ತಮ ರೀತಿಯಲ್ಲಿ ನಿಭಾಯಿಸಿ ಹಲವಾರು ಅಭಿವೃದ್ಧಿ ಕೆಲಸಗಳಿಗೆ ನಾಂದಿ ಹಾಡಿದ ಹೆಗ್ಗಳಿಕೆಗೂ ಇವರು ಪಾತ್ರರಾಗಿದ್ದಾರೆ. ಜಾತಿ ಧರ್ಮ ತಾರತಮ್ಯ ಮಾಡದೆ ಸದಾ ಜನನಾಯಕನಾಗಿದ್ದುಕೊಂಡು ಕಷ್ಟ ಎಂದು ಕೇಳಿಕೊಂಡು ಬಂದವರಿಗೆ ತಕ್ಷಣ ಸ್ಪಂದಿಸುವ ಮಾನವೀಯತೆ ಉಳ್ಳ ಧೀಮಂತ ನಾಯಕ ಟಿ.ಡಿ.ಆರ್. ಪಕ್ಷದ ಅಭಿವೃದ್ಧಿಗಾಗಿ ಕಾಯ ವಾಚ ಮನಸಾ ದುಡಿದ ಇವರು ಯಾವತ್ತು ಹುದ್ದೆಗಾಗಿ ಲಾಭಿ ಮಾಡಿದವರಲ್ಲ, ಪಕ್ಷದ ಏಳಿಗೆಗಾಗಿ ಸದಾ ದುಡಿಯುವ ಇಂತಹ ನಾಯಕನ ಸೇವೆ ಮತ್ತಷ್ಟು ಪಸರಿಸಬೇಕಾಗಿದೆ....</p>
+      
+	<div class="col-md-3">
+          
+        
+		
+  
+        
+        
+        
+	</div>
+	</div>
+        </div>
+  
+	</div><br><br><br><br><br><br>
+	 <div class="social">
+  <a href="https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link copy" target="_parent"><span class="fa fa-copy"></span></a> 
+  <a href="http://www.facebook.com/sharer.php?u=https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link facebook" target="_parent"><span class="fa fa-facebook-square"></span></a>
+  <a href="http://twitter.com/share?url=https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
+  <a href="https://plus.google.com/share?url=https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link google-plus" target="_parent"><span class="fa fa-google-plus-square"></span></a>
+  <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link linkedin" target="_parent"><span class="fa fa-linkedin"></span></a>
+  <a href="mailto:?subject=Scorpion_Informer&body=Check out this site[https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/]" class="link envelope-open" target="_parent"><span class="fa fa-envelope-open"></span></a>
+  <a href="whatsapp://send?text=https://scorpioninformer123.github.io/Sringeri-MLA-T.D-Rajegowda/" class="link whatsapp" target="_parent"><span class="fa fa-whatsapp"></span></a>
+  
+</div><br><br><br><br>
+		
+			</div>
+
+
+		</div>
+
+	
+		<script>
+		$(document).ready(function(){
+
+$('#php').LineProgressbar({
+	percentage: 95,
+	fillBackgroundColor: '#1abc9c',
+	height: '20px'
+	});
+$('#php1').LineProgressbar({
+	percentage: 95,
+	fillBackgroundColor: '#1abc9c',
+	height: '20px'
+	});
+$('#php2').LineProgressbar({
+	percentage: 95,
+	fillBackgroundColor: '#1abc9c',
+	height: '20px'
+	});
+$('#ph3').LineProgressbar({
+	percentage: 95,
+	fillBackgroundColor: '#1abc9c',
+	height: '20px'
+	});
+});
+		</script>
+<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+
+
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
